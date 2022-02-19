@@ -1,6 +1,6 @@
 .vscode/
 *.o
-pgm_efekt
+pgm_effect
 pgm_median
 */filtered*
 */*_binarize*

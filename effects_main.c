@@ -14,7 +14,7 @@ int main(int argc, char *argv[]) {
     char file[50], newfile[50];
 
     if(argc < 2) {
-        printf("\nUsage: ./pgm_efekt <PGM image 1> ... <PGM image N>\n");
+        printf("\nUsage: ./pgm_effect <PGM image 1> ... <PGM image N>\n");
         exit(1);
     } 
     for(int i = 1; i < argc; ++i) {
