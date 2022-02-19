@@ -1,0 +1,13 @@
+.vscode/
+*.o
+pgm_efekt
+pgm_median
+*/filtered*
+*/*_binarize*
+*/*_noise*
+*/*_invert*
+*/*_smooth*
+*/*_solarize*
+.DS_Store
+._*.*
+*.pdf
