@@ -1,10 +1,8 @@
 #include <stdlib.h>
-#include <stdio.h>
-#include <math.h>
 #include "effects.h"
 
 void effect_random_noise(unsigned char *pixels, int width, int height) {
-    int nr_noisy_pixel = (width * height) / 5; // %5 oraninda noise ekle
+    int nr_noisy_pixel = (width * height) / 5;
 
     for (int i = 0; i < nr_noisy_pixel; ++i ) {
         int which_pixel = (rand() % (width * height));
